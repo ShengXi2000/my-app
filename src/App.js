@@ -1,7 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from './logo.svg'
+import './App.css'
+import Home from './views/Home'
 function App() {
+  const title = 'React'
   return (
     <div className="App">
       <header className="App-header">
@@ -18,8 +19,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <Home title={title} />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
